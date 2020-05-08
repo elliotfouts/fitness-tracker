@@ -1,7 +1,7 @@
 {
   "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "",
+  "description": "Author: Elliot Fouts [![Travis CI](https://travis-ci.org/tterb/yt2mp3.svg?branch=master)](https://travis-ci.org/tterb/yt2mp3) [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/) [![GitHub followers](https://img.shields.io/github/followers/elliotfouts.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/elliotfouts?tab=followers)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,11 +9,21 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
+  "author": "Elliot Fouts <elliotfouts@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
     "mongoose": "^5.3.16",
-    "morgan": "^1.9.1"
-  }
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliotfouts/fitness-tracker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/elliotfouts/fitness-tracker/issues"
+  },
+  "homepage": "https://github.com/elliotfouts/fitness-tracker#readme"
 }
